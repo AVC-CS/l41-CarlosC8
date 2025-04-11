@@ -14,10 +14,10 @@ def main():
     for i in range(N + 1):
         if i == 0:
             result = 1
-            print(f"The value of 2 to the power of 0 is {result}")
+            print(result, end= " ")
         else:
             result = result * 2
-            print(f"The value of 2 to the power of {i} is {result}")
+            print(result, end= " ")
 
 
     ########################################
