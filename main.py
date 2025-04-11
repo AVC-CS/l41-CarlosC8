@@ -9,6 +9,17 @@ def main():
     ########################################
     """
 
+    value = 0
+    
+    for i in range(N + 1):
+        if i == 0:
+            value = 1
+            print(f"The value of 2 to the power of 0 is {value}")
+        else:
+            value = value * 2
+            print(f"The value of 2 to the power of {i} is {value}")
+
+
     ########################################
     # Do not delete the return statement
     ########################################
