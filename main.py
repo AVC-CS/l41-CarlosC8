@@ -9,15 +9,18 @@ def main():
     ########################################
     """
 
-    result = 0
-    
+    result = []
+    value = 0
+
     for i in range(N + 1):
         if i == 0:
-            result = 1
-            print(result, end= " ")
+            value = 1
+            result.append(value)
         else:
-            result = result * 2
-            print(result, end= " ")
+            value = value * 2
+            result.append(value)
+            
+    print(result)
 
 
     ########################################
